@@ -61,28 +61,28 @@ nav li a:hover{
 .leftMenu
 {
     color: #436179;
-	width: 210px;
-	height: 100%;
-	position: fixed;
-	z-index: 0;
-	left: 0px;
-	top: 0px;
-	background: #fff;
-	border-right: 1px solid #e6e6e6;
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    background: #fff;
+    border-right: 1px solid #e6e6e6;
 }
 
 .contentMenu
 {
 
     font-size: 16px;
-	float: left;
-	width:100px;
+    float: left;
+    width:100px;
     
 /*	margin-top: 95px;*/
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-	margin-left: 40px;
+    margin-left: 40px;
 
 }
 .contentMenu span{
@@ -95,9 +95,9 @@ nav li a:hover{
         padding-bottom:5px;
  }
 .contentMenu li a{
-        color: #436179;
-        text-decoration: none;
-        font-size: 16px;
+    color: #436179;
+    text-decoration: none;
+    font-size: 16px;
  }
  .contentMenu li a:hover{
     text-decoration: underline;
@@ -108,8 +108,8 @@ nav li a:hover{
    margin-bottom: 5px;
    border-bottom: 3px #38647f dotted;
  }
- .socielMedia{
-     margin-top: 10px;   
+.socielMedia{
+   margin-top: 10px;   
  }
     
 .closeArrow{
@@ -127,11 +127,10 @@ nav li a:hover{
 /*kontent główny    */
 section{
     margin: 0 auto;
-    margin-top:80px;
+    margin-top:90px;
     max-width: 920px; 
 }
-main{
-            
+main{          
     font-size: 16px;  
 }
 div.aboutCompany{   
@@ -160,9 +159,8 @@ footer {
     margin-top: 30px;
     position: relative;
     z-index: 2;
-    
-	background-color: #036;
-	height:	 68px;
+    background-color: #036;
+    height:68px;
 }
     
     

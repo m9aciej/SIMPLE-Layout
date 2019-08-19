@@ -90,9 +90,9 @@ nav li a:hover{
     padding-bottom:5px;
  }        
 .contentMenu li{
-        list-style: none;
-        padding-top:5px;
-        padding-bottom:5px;
+    list-style: none;
+    padding-top:5px;
+    padding-bottom:5px;
  }
 .contentMenu li a{
     color: #436179;
@@ -127,7 +127,7 @@ nav li a:hover{
 /*kontent główny    */
 section{
     margin: 0 auto;
-    margin-top:90px;
+    margin-top:150px;
     max-width: 920px; 
 }
 main{          
@@ -140,7 +140,7 @@ div.aboutCompany{
     justify-content: center;
     border-bottom: 4px #38647f dotted;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 div.aboutCompany h1{
     font-size: 30px;

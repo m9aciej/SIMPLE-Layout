@@ -16,12 +16,10 @@ header{
     width: 100%;
     background-color: #036;
     height: 80px;
-        
     display: flex;
     align-items:flex-start;
     justify-content: center;
 }
-
 nav{
     align-self: center;
 }
@@ -33,9 +31,7 @@ nav li a{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-decoration: none;
-    color: white;
-    
-        
+    color: white;     
 }
 nav li a:hover{
     text-decoration: underline;
@@ -47,13 +43,25 @@ nav li a:hover{
     display: flex;
     position: absolute; 
     right: 10px;  
+    overflow: hidden;
 }
 .search input{
     align-self: center;
     opacity: 0.5;
     margin-right: 5px;
     width: 100px;
-    height: 30px;
+    height: 30px; 
+}
+
+.hideInput{
+    -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+    position: relative;
+    right:-120%;
+}
+.showInput{
+    position: relative;
+    right:0%;  
 }
     
 /*menu boczne*/
@@ -61,28 +69,28 @@ nav li a:hover{
 .leftMenu
 {
     color: #436179;
-    width: 210px;
-    height: 100%;
-    position: fixed;
-    z-index: 0;
-    left: 0px;
-    top: 0px;
-    background: #fff;
-    border-right: 1px solid #e6e6e6;
+	width: 210px;
+	height: 100%;
+	position: fixed;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+	background: #fff;
+	border-right: 1px solid #e6e6e6;
 }
 
 .contentMenu
 {
 
     font-size: 16px;
-    float: left;
-    width:100px;
+	float: left;
+	width:100px;
     
 /*	margin-top: 95px;*/
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    margin-left: 40px;
+	margin-left: 40px;
 
 }
 .contentMenu span{
@@ -90,14 +98,14 @@ nav li a:hover{
     padding-bottom:5px;
  }        
 .contentMenu li{
-    list-style: none;
-    padding-top:5px;
-    padding-bottom:5px;
+        list-style: none;
+        padding-top:5px;
+        padding-bottom:5px;
  }
 .contentMenu li a{
-    color: #436179;
-    text-decoration: none;
-    font-size: 16px;
+        color: #436179;
+        text-decoration: none;
+        font-size: 16px;
  }
  .contentMenu li a:hover{
     text-decoration: underline;
@@ -108,8 +116,8 @@ nav li a:hover{
    margin-bottom: 5px;
    border-bottom: 3px #38647f dotted;
  }
-.socielMedia{
-   margin-top: 10px;   
+ .socielMedia{
+     margin-top: 10px;   
  }
     
 .closeArrow{
@@ -130,7 +138,8 @@ section{
     margin-top:150px;
     max-width: 920px; 
 }
-main{          
+main{
+            
     font-size: 16px;  
 }
 div.aboutCompany{   
@@ -159,8 +168,8 @@ footer {
     margin-top: 30px;
     position: relative;
     z-index: 2;
-    background-color: #036;
-    height:68px;
-}
     
+	background-color: #036;
+	height:	 68px;
+}
     
